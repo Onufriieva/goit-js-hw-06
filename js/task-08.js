@@ -19,23 +19,6 @@
 //  а значение поля - значением свойства. Для доступа к элементам формы используй свойство elements.
 // Выведи обьект с введенными данными в консоль и очисти значения полей формы методом reset.
 
-// const form = document.querySelector('.login-form');
-// form.addEventListener('submit', onFormSubmit);
-
-// function onFormSubmit(event) {
-//     event.preventDefault();
-//     // const formElements = event.currentTarget.elements;
-//     // console.log(formElements);
-//     // const email = formElements.email.value;
-//     // const password = formElements.password.value;
-
-//     const formData = new FormData(event.currentTarget);
-//     formData.forEach((value, name) => {
-// console.log(name);
-// console.log(value);
-//     })
-// }
-// onFormSubmit(form)
 
 
 const loginForm = document.querySelector(".login-form");
