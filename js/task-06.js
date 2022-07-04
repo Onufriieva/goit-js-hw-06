@@ -31,8 +31,10 @@ input.addEventListener('blur', (onControlValueInput) );
 
 function onControlValueInput(event) {
     if(event.currentTarget.value.length === +input.dataset.length){
+        input.classList.remove('invalid'); 
         input.classList.add('valid');
     } else if(event.currentTarget.value.length !== input.dataset.length){
         input.classList.add('invalid'); 
+        input.classList.remove('valid');
     };
 };
